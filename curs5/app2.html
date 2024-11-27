@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div img{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+      @media screen AND (max-width : 360px;){
+        h1{
+            color: red;
+        }
+        .desk, .tab, .lapt{
+            display: none;
+        }
+      }
+      @media screen AND (min-width : 361;) and (max-width : 768px;){
+        h1{
+            color: blue;
+        }
+      }
+      @media screen AND (min-width : 768px;) and (max-width : 1240;){
+        h1{
+            color: green;
+        }
+      }
+      @media screen AND (min-width : 1241;){
+    h1{
+        color: aqua;
+    }
+      }
+    </style>
+</head>
+<body>
+   <div class="desk">
+    <h1>Suntem pe desktop</h1>
+    <img src="./poza1.jpg" alt="desktop">
+   </div>
+   <div class="lapt">
+    <h1>Suntem pe laptop</h1>
+    <img src="./poza2.jpg" alt="laptop">
+   </div>
+   <div class="tab">
+    <h1>Suntem pe tableta</h1>
+    <img src="./poza3.jpg" alt="tableta">
+   </div>
+   <div class="mob">
+    <h1>Suntem pe mobile</h1>
+    <img src="./poza4.jpg" alt="telefon">
+   </div> 
+</body>
+</html>
