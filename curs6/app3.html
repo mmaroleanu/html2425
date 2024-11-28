@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formular Contact</h1>
+    <form action="" method="post">
+        <div>
+            <label for="">Orasul</label>
+            <select name="oras" id="">
+                <option value="1">Iasi</option>
+                <option value="2">Erbiceni</option>
+                <option value="3">Barlesti</option>
+                <option value="4">Spinoasa</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Cursuri</label>
+            <select name="Cursuri[]" id="" multiple>
+                <option value="css">CSS</option>
+                <option value="html">HTML</option>
+                <option value="c++">C++</option>
+                <option value="node">NodeJS</option>
+                <option value="java">JAVA</option>
+            ></select>
+        </div>
+        <div>
+            <label for="">Mesaj</label>
+            <textarea name="mesaj" id=""></textarea>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Program Cursuri</legend>
+                <input type="radio" name="program" id="dimineata">
+                <label for="">Dimineata</label>
+                <input type="radio" name="program" id="pranz"checked>
+                <label for="">Pranz</label>
+                <input type="radio" name="program" id="seara" disabled>
+                <label for="">seara</label>
+            </fieldset>
+        </div>
+        <div>
+            <button type="Submit">Trimite Datele</button>
+        </div>
+    </form>
+
+</body>
+</html>

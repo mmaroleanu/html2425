@@ -1,0 +1,23 @@
+#tabel1{
+    border: 1px red solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+}
+#tabel1 tr td, #table tr th{
+    border: 1px blue double;
+    padding: 15px;
+}
+#tabel1 tr th{
+    color: red;
+    background-color: black;
+}
+#tabel1 tr:nth-child(2n){
+    background-color: bisque;
+}
+#tabel1 tr:nth-child(2n+1){
+    background-color: beige;
+}
+#tabel1 tfoot tr{
+    background-color: blueviolet;
+    color:#ffffff
+}
